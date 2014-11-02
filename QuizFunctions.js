@@ -13,9 +13,8 @@
     
                   ~~©Jack Steinberg, 2014~~
         ~~jack.steinberg15@trinityschoolnyc.org~~
+   ~~http://github.com/jacksteinberg15/physquizhosted/~~
     
-    ORCHESTRATE DATABASE
-    HEROKU
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     */
 
