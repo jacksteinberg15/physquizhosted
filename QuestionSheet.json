@@ -1,0 +1,118 @@
+{
+    "title": "Physics Quiz",
+    "questions": [
+        {
+            "q": "1). What is the speed of light in a vacuum?",
+            "c": [
+                    "1.2x10^7",
+                    "2.5x10^8",
+                    "3.0x10^8",
+                    "3.0x10^7",
+                    "9.8x10^8"
+                ],
+            "a": "3.0x10^8",
+            "tag": "speed of light"
+            },
+        {
+            "q": "2). F = ___",
+            "c": [
+                    "c/v",
+                    "mv",
+                    "delta-y/delta-x",
+                    "ma"
+                ],
+            "a": "ma",
+            "tag": "newton force"
+            },
+        {
+            "q": "3). What is Newtons Third Law?",
+            "c": [
+                    "V = IR",
+                    "For every action there is an equal and opposite reaction",
+                    "The speed of light in a vacuum is constant",
+                    "Cats can be both dead and alive"
+                ],
+            "a": "For every action there is an equal and opposite reaction",
+            "tag": "Isaac Newton"
+            },
+        {
+            "q": "4). The acceleration due to gravity on Earth is approximately ___ m/s^2",
+            "c": [
+                    "9.8",
+                    "3.0",
+                    "144.0",
+                    "96.0"
+                ],
+            "a": "9.8",
+            "tag": "gravity"
+            },
+        {
+            "q": "5). How many types of quarks are there?",
+            "c": [
+                    "3",
+                    "6",
+                    "9",
+                    "12",
+                    "15",
+                    "18"
+                ],
+            "a": "6",
+            "tag": "quark"
+            },
+        {
+            "q": "6). What units measure force?",
+            "c": [
+                    "Pints",
+                    "GeV",
+                    "Pascals",
+                    "Newtons"
+                ],
+            "a": "Newtons",
+            "tag": "force"
+            },
+        {
+            "q": "7). The second law of thermodynamics is a restatement of",
+            "c": [
+                    "Gay-Lussacs Law",
+                    "Entropy",
+                    "Enthalpy",
+                    "Avogadros Hypothesis"
+                ],
+            "a": "Entropy",
+            "tag": "Chemistry"
+            },
+        {
+            "q": "8). Water boils at what temperature?",
+            "c": [
+                    "100f",
+                    "150f",
+                    "0c",
+                    "100c"
+                ],
+            "a": "100c",
+            "tag": "water boiling"
+            },
+        {
+            "q": "9). Electric resistance is measured in which unit?",
+            "c": [
+                    "Volts",
+                    "Ohms",
+                    "Amperes",
+                    "Avogadros"
+                ],
+            "a": "Ohms",
+            "tag": "electricity"
+            },
+        {
+            "q": "10). Which particle does NOT carry a force?",
+            "c": [
+                    "Neutron",
+                    "Photon",
+                    "Gluon",
+                    "W boson"
+                ],
+            "a": "Neutron",
+            "tag": "atom"
+            }
+            ]
+}

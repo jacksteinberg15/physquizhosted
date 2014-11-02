@@ -1,0 +1,22 @@
+{
+    "name": "jsquizapp",
+    "version": "1.0.0",
+    "description": "JQuery Quiz 11/02/14. Hosted with Heroku with Node.js.",
+    "main": "server.js",
+    "dependencies": {
+        "connect": "^3.3.2",
+        "serve-static": "^1.7.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@heroku.com:jsquizapp.git"
+    },
+    "author": "Jack Steinberg",
+    "license": "MIT",
+    "homepage": "https://github.com/jacksteinberg15/jacksteinberg15.github.io"
+}

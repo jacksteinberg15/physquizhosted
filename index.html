@@ -1,0 +1,130 @@
+<html>
+
+<head>
+    <title>TBD QUIZ</title>
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src='piechart.js'></script>
+    <script src='QuestionSheet.json' type="application/json"></script>
+    <script src="QuizFunctions.js"></script>
+    <link rel="stylesheet" type="text/css" href="QuizStyles.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lobster">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald">
+</head>
+<div id='header'>
+    <h1>
+        Physics Quiz
+    </h1>
+
+    <hr></hr>
+</div>
+
+<div id='authBox'>
+    <h2 id='authText'></h2>
+</div>
+<!-- This is the frame for the Name -->
+<div id='nameform'>
+    <div id='name_submission'>
+
+        <h2>Enter your login information</h2>
+
+        <form id='namefrm'>Username:
+            <input id='fn' type="text" name="username" value=""></input>
+            <br/>Password:
+            <input id='pw' type="password" name="password" value=""></input>
+            <br />
+        </form>
+        <div id='button'>
+            <br></br>
+            <button onclick="subName()">Login</button>
+            <br></br>
+            <button onclick="createUser()">I am a new User</button>
+        </div>
+    </div>
+    <div id='name_display'>
+        <h1 id='Name'></h1>
+    </div>
+</div>
+<div id='newUser'>
+    <h2>Enter your requested login information</h2>
+    <form id='newUserfrm'>Username:
+        <input id='fnn' type="text" name="usernamenew" value=""></input>
+        <br/>Password:
+        <input id='pwn' type="password" name="passwordnew" value=""></input>
+        <br />
+        <br></br>
+    </form>
+    <button onclick="saveUser()">Create New User</button>
+</div>
+<!-- This is the frame for the Questions -->
+<div id='quizform'>
+    <div id='qlayout'>
+        <h2 id='question'>This is where the question goes?</h2>
+    </div>
+    <form id='questionfrm'>
+        <input id='c1' type='radio' name='choices'></input>
+        <label id='c11' for="c1">Choice One</label>
+        <br></br>
+        <input id='c2' type='radio' name='choices'></input>
+        <label id='c21' for="c2">Choice Two</label>
+        <br></br>
+        <input id='c3' type='radio' name='choices'></input>
+        <label id='c31' for="c3">Choice Three</label>
+        <br></br>
+        <input id='c4' type='radio' name='choices'></input>
+        <label id='c41' for="c4">Choice Four</label>
+        <br></br>
+        <div id='extraqs'>
+        </div>
+    </form>
+</div>
+<div id='button'>
+    <button id='backButton' onclick="stepBack()">Back</button>
+    <button id='nextButton' onclick="stepForward()">Next</button>
+    <button id='submitButton' onclick="subQuiz()">Submit</button>
+</div>
+<!-- This is the frame for the images -->
+<div id='imageFrame'>
+</div>
+<!-- This is the frame for the results -->
+<div id='resultsfrm'>
+    <div id='Rheader'>
+        <h1>Results: </h1>
+    </div>
+    <h2>1). </h2>
+    <p id='r1'>Corrct</p>
+    <h2>2). </h2>
+    <p id='r2'>Corrct</p>
+    <h2>3). </h2>
+    <p id='r3'>Corrct</p>
+    <h2>4). </h2>
+    <p id='r4'>Corrct</p>
+    <h2>5). </h2>
+    <p id='r5'>Corrct</p>
+    <h2>6). </h2>
+    <p id='r6'>Corrct</p>
+    <h2>7). </h2>
+    <p id='r7'>Corrct</p>
+    <h2>8). </h2>
+    <p id='r8'>Corrct</p>
+    <h2>9). </h2>
+    <p id='r9'>Corrct</p>
+    <h2>10). </h2>
+    <p id='r10'>Corrct</p>
+    <div id='header'>
+        <h1 id='ratio'></h1>
+    </div>
+</div>
+<center>
+    <canvas id='piechart' width="250" height="250"></canvas>
+</center>
+
+<div id='dispAve'></div>
+<div id='dispOthers'></div>
+
+<br></br>
+<hr></hr>
+<div id='links'>
+    <a href="https://github.com/jacksteinberg15/jacksteinberg15.github.io">Github</a>
+</div>
+
+</html>

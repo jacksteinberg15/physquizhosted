@@ -1,0 +1,104 @@
+body {
+    background-color: #52D9CF;
+}
+#header {
+    font-family: 'Lobster';
+    color: #4D9979;
+    text-align: CENTER;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+#Rheader {
+    font-family: 'Lobster';
+    color: #4D9979;
+    text-align: CENTER;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+#name_display {
+    font-family: 'Oswald';
+    color: #4D9979;
+    text-align: CENTER;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+hr {
+    border: 0;
+    width: 80%;
+    color: #994D6D;
+    background-color: #994D6D;
+    height: 5px;
+}
+p {
+    font-family: 'Oswald';
+    color: #4D9979;
+    text-align: center;
+}
+#name_submission {
+    font-family: 'Oswald';
+    color: #4D9979;
+}
+#newUserfrm {
+    font-family: 'Oswald';
+    color: #4D9979;
+}
+#imageFrame {
+    text-align: center
+}
+h1 {
+    margin-bottom: 25px;
+}
+h2 {
+    font-family: 'Oswald';
+    color: #4D9979;
+    text-align: CENTER;
+    font-size: 16px;
+    text-decoration: underline;
+}
+#authBox h2 {
+    color: #FF0000;
+    text-decoration: none;
+}
+#nameform {
+    text-align: CENTER;
+}
+#newUser {
+    text-align: CENTER;
+}
+#button {
+    color: #000000;
+    text-align: CENTER;
+}
+#quizform {
+    font-family: 'Oswald';
+    color: #4D9979;
+    margin-left: 40%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#qlayout {
+    margin-left: -65%;
+    margin-bottom: 25px;
+    text-align: CENTER;
+}
+#dispOthers h2 {
+    color: #424FA9;
+    text-align: center;
+    font-size: 36px;
+}
+#dispOthers p {
+    color: #424FA9;
+    text-align: center;
+    font-size: 36px;
+}
+#dispAve h1 {
+    font-family: 'Lobster';
+    color: #424FA9;
+    text-align: center;
+    font-size: 48px;
+}
+#links {
+    font-family: 'Oswald';
+    text-align: center;
+    font-size: 12px;
+}
