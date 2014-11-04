@@ -56,7 +56,6 @@
         });
 
         //AJAX shenanigans (Not really working)
-        //TODO: Fix this loading
         $.ajaxSetup({
             async: false
         });
@@ -193,7 +192,6 @@
         }
     }
 
-    // TODO: FLICKR STUFF
     //Load the Flickr images
     function loadFlickr(tag) {
         $.getJSON("https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=44a4d773a71dfa0549f44f4ac10d4afe&text=" +
@@ -254,7 +252,6 @@
 
             //Storing the score and name
             var interimJSON1 = fromLocalStorage();
-            //TODO: eliminate duplication
             interimJSON1.namesandscores.push('{"' + pureName + '": "' + (numright * 10) + '"}');
             interimJSON1.rawscores.push((numright * 10));
             interimJSON1.rawnames.push(pureName);
